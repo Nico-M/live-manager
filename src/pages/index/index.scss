@@ -1,0 +1,16 @@
+@import '../../static/css/mixin';
+
+.home-container{
+    .compnay-rank-title{
+    }
+    
+    .company-card-list{
+        margin-top: .5em;
+        .at-card__header-extra::before{
+            content:"❀";
+            color: red;
+        }
+    }
+
+}
+

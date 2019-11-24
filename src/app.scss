@@ -1,0 +1,20 @@
+@import '~taro-ui/dist/style/index.scss';
+@import './static/css/mixin';
+
+.panel-title {
+  padding: 1.5em 0.8em;
+  color: $color-brand;
+  background: linear-gradient(to top, #dce2e6, #fdfefe);
+}
+
+.mt-sm{
+    margin-top: .4em;
+}
+
+.ml-sm{
+  margin-left: .4em;
+}
+
+.d-flex{
+  @include fj('flex-start')
+}
